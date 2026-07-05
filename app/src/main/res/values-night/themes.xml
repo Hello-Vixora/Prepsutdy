@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Main application theme, Material 3, dark mode -->
+    <style name="Theme.ReplyVault" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/rv_amber</item>
+        <item name="colorOnPrimary">@color/rv_bg</item>
+        <item name="colorSecondary">@color/rv_teal</item>
+        <item name="colorSurface">@color/rv_panel</item>
+        <item name="colorOnSurface">@color/rv_text</item>
+        <item name="android:colorBackground">@color/rv_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="enforceNavigationBarContrast" tools:targetApi="29">false</item>
+        <item name="enforceStatusBarContrast" tools:targetApi="29">false</item>
+    </style>
+
+    <style name="Theme.ReplyVault.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/rv_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.ReplyVault</item>
+    </style>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- app-private downloads cache, used on API 24-28 before sharing via FileProvider -->
+    <cache-path name="downloads_cache" path="downloads/" />
+    <external-cache-path name="external_downloads_cache" path="downloads/" />
+    <external-path name="external_files" path="." />
+    <external-files-path name="external_files_dir" path="." />
+</paths>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors, taken directly from the Nightshift / ReplyVault PWA palette -->
+    <color name="rv_bg">#0E1420</color>
+    <color name="rv_bg_soft">#131A28</color>
+    <color name="rv_panel">#161F30</color>
+    <color name="rv_panel_2">#1C2740</color>
+    <color name="rv_line">#263248</color>
+    <color name="rv_text">#E9ECF3</color>
+    <color name="rv_text_dim">#97A2B8</color>
+    <color name="rv_amber">#E8A852</color>
+    <color name="rv_amber_dim">#7A5A2E</color>
+    <color name="rv_teal">#5FB3A8</color>
+    <color name="rv_rose">#D97B7B</color>
+
+    <!-- Light theme equivalents -->
+    <color name="rv_bg_light">#F3F1EA</color>
+    <color name="rv_panel_light">#FFFFFF</color>
+    <color name="rv_text_light">#211D16</color>
+    <color name="rv_amber_light">#B8791F</color>
+
+    <color name="ic_launcher_background">#0E1420</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

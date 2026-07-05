@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReplyVault</string>
+    <string name="webview_content_description">ReplyVault app content</string>
+    <string name="error_load_title">Something went wrong</string>
+    <string name="error_load_message">ReplyVault couldn\'t load its content. Please reinstall the app if this keeps happening.</string>
+    <string name="error_retry">Retry</string>
+    <string name="download_started">Downloading %1$s…</string>
+    <string name="download_complete">Saved %1$s to Downloads</string>
+    <string name="download_failed">Couldn\'t save the file</string>
+    <string name="permission_denied_storage">Storage permission is needed to save files</string>
+    <string name="exit_confirm_toast">Press back again to exit</string>
+</resources>
